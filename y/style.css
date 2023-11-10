@@ -1,0 +1,248 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav {
+    overflow: hidden;
+   display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    margin: 0;
+    height: 35px;
+    position: fixed;
+    z-index: 9999;
+    color: white;
+}
+main{
+    height: 2000px;
+    position: relative;
+    padding-top: 50px;
+    z-index: 100;
+}
+h4{
+    /* padding: 16px; */
+    /* margin-top: 50px; */
+    /* height: 1500px; Used in this example to enable scrolling */
+    text-align: center;
+}
+
+.color{
+    color: blue;
+}
+
+.img{
+    background-image: url(https://tecnologiacasa.it/wp-content/uploads/2023/09/iPhone-15-Pro.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    cursor: pointer;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.h2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.h3{
+    color: #4A92DB;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.banner{
+    background-image: url(https://d3fn3kr95dli4b.cloudfront.net/private-uploads/news-1658237170548-33bc7.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    cursor: pointer;
+    margin-top: 40px;
+    color: black;
+}
+
+.h10{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.h20{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.mac{
+    background-image: url(https://images.macrumors.com/t/Z91LBOwhslL0N0vjTebH0JUhCxo=/1600x1200/smart/article-new/2023/09/Apple-Watch-Series-9.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    cursor: pointer;
+    margin-top: 40px;
+    color: white;
+}
+
+.ipad{
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/preunidays-header-hero-202306_FMT_WHH?wid=454&hei=414&fmt=png-alpha&.v=1684532781363);
+    width: 48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.threeD{
+    background-image: url(https://blockzeit.com/wp-content/uploads/2023/06/apple-vision-pro.jpg);
+    width: 48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.ipad-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.yoyo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.watch{
+    background-image: url(https://www.techrepublic.com/wp-content/uploads/2020/09/apple-delivers-apple-watch-series-6-09152020.jpg);
+    width: 48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.learn{
+    background-image: url(https://www.apple.com/v/ipad-pro/am/images/meta/ipad-pro_overview__glcw458o4byq_og.png);
+    width: 48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.head{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.healthy{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.tree{
+    background-image: url(https://news24online.com/wp-content/uploads/2022/09/apple-5.jpg);
+    width: 48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.mango{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.apple{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.milk{
+    background-image: url(https://www.apple.com/v/apple-card/k/images/meta/og__dtukeczp0ygm_overview.png?202310021011);
+    width: 48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    cursor: pointer;
+    margin-top: 40px;
+}
